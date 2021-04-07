@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Playfair+Display:wght@600&display=swap");
+
+*{
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin:0%
+}
+.nav-head{
+    background-color: rgb(252, 251, 249)  ;
+    box-shadow: rgb(255, 254, 254);
+    width: 100%;
+    height: 75px;
+    display:flex;
+    position: fixed;
+    justify-content: space-between;
+    
+}
+.icon{
+    background-image: url(imglogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 4%;
+    height: 50%;
+    margin:1% 5% 3%;
+    justify-self: flex-start;
+}
+.nav_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-self: flex-end;
+    margin-right: 10%;
+    font-size: 17px;
+    font-family: "Noto Sans KR";
+}
+.options{
+    margin: 10%;
+}
+
+.top{
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left-fr{
+    width: 50%;
+    height: 100%;
+    background-color: #293b52 ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.text{
+      margin-left: 10%;
+}
+.heading1 {
+    color:#f8d16c;
+    font-size: 13vh;
+    margin-top: 25%;
+    
+    
+}
+.a1{
+    position: absolute;
+    top:160px;
+    width:25%;
+    height: 15%;
+    background-color: rgba(252, 251, 250, 0.20);
+}
+.a2{
+    position: absolute;
+    top:270px;
+    width:19%;
+    height: 13%;
+    background-color: rgba(252, 251, 250, 0.20);
+}
+
+.heading2{
+    color:#f8d16c;
+    font-size: 13vh;
+    margin-top: 3%;
+}
+.para{
+    color: white;
+    margin-top: 5%;
+    text-align: left;
+    margin-right: 5%;
+    font-size: 20px;
+    line-height: 40px;
+}
+.right-fr{
+    width:50%;
+    height: 100%;
+    background-color: #f8d16c ;
+    align-items: center;
+    justify-content: center;
+}
+.extra{
+    align-self: center;
+}
+.back{
+    height: 50%;
+    width:70%;
+    margin: 27% 10% 20% 15%;   
+    
+}
+.middle{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.headmid, .mid2-head{
+   text-align: center;
+   color:rgb(90, 89, 89);
+   font-size: 7vh;
+   border-bottom: 10px solid #f8d16c;
+   width: fit-content;
+   justify-self: center;
+   margin-left: 92vh;
+}
+.image{
+    background-image: url(project.png);
+    background-size: cover;
+    height: 30vh;
+    width: 51.5vh;
+    margin-top: 1%;
+    margin-left: 77vh;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pro{
+    width: 50vh;
+    height:100%;
+    margin: 10%;
+    font-size: 80px;
+}
+.numb{
+    display: inline;
+    position: absolute;
+    height: 120%;
+    font-size: 200%;
+    color:#f8d16c ;
+    z-index: -10;
+}
+.pro_head{
+    text-align: right;
+    margin-right: 10%;
+    font-size: 25px;
+    color: black;
+}
+.pro_info{
+    text-align: right;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 8%;
+    font-size: 15px;
+    color: rgb(148, 146, 146);
+ 
+}
+.mid_button, .btn{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px solid black;
+    width: fit-content;
+    margin-left: 47%;
+    padding: 10px;
+}
+.mid_button:hover, .btn:hover{
+    background-color: #f8d16c;
+}
+
+.btn{
+    margin-top: 0%;
+}
+.mid2-head{
+    margin-left: 99vh;
+}
+.mid_2{
+    width: 100%;
+    height: 63vh;
+    background-color: rgb(240, 236, 236);
+}
+.blogimg{
+    width:70%;
+    align-self: center;
+    margin-left: 10%;
+}
+.mid2_image{
+    width: 50%;
+}
+.mid2_info{
+    width: 40%;
+    margin-top: 10%;
+    font-size: 1.25em;
+    text-align: center;
+    
+}
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+}
+.abt_info{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #293b52;
+}
+.contUs{
+    width: 49%;
+    margin: 2%;
+}
+h2{
+    color: white;
+    margin-bottom: 5%;
+}
+.about{
+    width: 40%;
+    margin: 2%;
+    color: rgb(231, 228, 228);
+}
+footer{
+    background-color: #1c2838;
+    color: white;
+    height: 40px;
+}
