@@ -4,13 +4,28 @@
 a{
     text-decoration: none;
 }
-.container{
+.maincontainer{
     margin:0%;
     display: flex;
     flex-direction: column;
+    /* border:10px solid black; */
 }
+#id1{
+    margin:0%;
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid black; */
+}
+/* .container, {
+    margin:0%;
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    height: ;
+    width: 100%;
+} */
 .nav-head{
-    background-color: rgb(252, 251, 249)  ;
+    background-color: white   ;
     box-shadow: rgb(255, 254, 254);
     width: 100%;
     height: 60px;
@@ -26,8 +41,8 @@ a{
     background-image: url(imglogo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 4%;
-    height: 68%;
+    width: 43px;
+    height: 35px;
     margin:1% 5% 3%;
     justify-self: flex-start;
 }
@@ -44,25 +59,49 @@ a{
 .options{
     margin: 10%;
 }
+@media screen and (max-width: 750px) {
+    .options{
+        display: none;
+    }
+    .nav_buttons{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .burger{
+        width:40px;
+        height: 5px;
+        background-color: black;
+        display: flex;
+        margin: 4%;
+    }
+    
+}
 .blogs{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    position: absolute;
+    /* justify-content: space-evenly; */
+    /* position: absolute;
     top:35px;
-    left:0;
-    margin: 2%;
+    left:0; */
+    margin: 3.5%; 
+    margin-top:60px;
+    /* border:2px solid black; */
+    /* padding: 10px; */
+    /* align-self: center; */
 }
 .blog{
-    margin: 1%;
+    margin-top: 2%;
+    margin: 1%; 
     border-radius: 5px;
     border: 1px solid gainsboro; 
     width: 60vh;
+    min-width: 25vw;
     box-shadow:0px 2px rgba(220, 220, 220, 0.486);
 }
-/* .blog:hover{
-    margin-bottom:2%
-} */
+.blog:hover{
+    transform: translateY(-10px);
+}
 .bimg{
     width:100%;
     height: 200px;
@@ -105,11 +144,11 @@ a{
     
 }
 .unksym{
-    background-color: rgba(231, 228, 228, 0.164);
+    /* background-color: rgba(70, 63, 63, 0.884); */
     height: 50px;
     width: 100%;
-    position:fixed;    
-    bottom:0px;
+    /* position:fixed;    
+    bottom:0px; */
 }
 footer{
     /* position: fixed;
@@ -118,6 +157,16 @@ footer{
     justify-self: flex-end;
     height: 20px;
     width: 100%;
-    background-color: #1c2838;
+    background-color: #1c2838; 
     color: ghostwhite;
+}
+.bottom{
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+@media screen and (max-width: 650px) {
+    .blog{
+        width:90%;
+        margin:2%;
+    }
 }

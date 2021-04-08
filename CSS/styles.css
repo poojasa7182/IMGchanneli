@@ -29,7 +29,7 @@ a{
     background-size: cover;
     width: 43px;
     height: 35px;
-    margin:1% 5% 2%;
+    margin:1.5% 5% 1.5%;
     justify-self: flex-start;
 }
 .nav_buttons{
@@ -38,13 +38,15 @@ a{
     justify-content: space-evenly;
     align-items: center;
     justify-self: flex-end;
-    margin-right: 10%;
-    font-size: 17px;
-    font-family: "Noto Sans KR"; 
+    margin-right: 12%;
+    font-size: 20px;
+    color: #263146;
+    font-weight:0;
+    font-family: 'Bebas Neue', cursive;
     /* font-family: "TypoPRO-BebasNeue"; */
 }
 .options{
-    margin: 10%;
+    margin: 15%;
 }
 .burger{
     display: none;
@@ -68,8 +70,8 @@ a{
 }
 .heading1 {
     color:#f8d16c;
-    font-size: 10vh;
-    margin-top: 25%;  
+    font-size: 5vw;
+    margin-top: 25vh;  
     font-family: 'Playfair Display', serif; 
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent 100%); 
 }
@@ -90,19 +92,19 @@ a{
 
 .heading2{
     color:#f8d16c;
-    font-size: 10vh;
+    font-size: 5vw;
     margin-top: 6%;
     font-family: 'Playfair Display', serif;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 40%, rgba(255, 255, 255, 0.2) 40%, transparent 40%, transparent 100%);
 }
 .para{
     color: white;
-    margin-top: 5%;
+    margin-top: 7%;
     text-align: left;
     margin-right: 5%;
-    font-size: 20px;
-    line-height: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    line-height: 7vh;
+    font-family: 'Lato', sans-serif;
 }
 .right-fr{
     width:50%;
@@ -130,7 +132,18 @@ a{
         display: flex;
         margin: 4%;
     }
-    
+    .heading1{
+        font-size: 7vh;
+        margin-top: 30vh;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 40%, rgba(255, 255, 255, 0.2) 40%, transparent 40%, transparent 100%);
+    }
+    .heading2{
+        font-size: 7vh;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0.2) 30%, transparent 30%, transparent 100%);
+    } 
+    .para{
+        font-size: 2.5vw;
+    }
 }
 .extra{
     /* align-self: center; */
@@ -153,28 +166,30 @@ a{
 .headmid, .mid2-head{
    text-align: center;
    color:rgb(90, 89, 89);
-   font-size: 7vh;
-   border-bottom: 10px solid #f8d16c;
-   width: fit-content;
+   font-size: 6vh;
+   border-bottom: 7px solid #f8d16c;
+   width:fit-content;
    align-self: center;
     /* margin-left: 43vw;
     margin-right: 40vw; */
     font-family: 'Playfair Display', serif;
     font-weight: 50;
+    padding: 0.3em;
+    margin-bottom: 0%;
 }
 .image{
     background-image: url(project.png);
     background-size: cover;
     width: 51.5vh;
     height: 30vh;
-    margin-top: 1%;
+    margin-top: 10px;
     /* margin-left: 37vw; */
 }
 .projects{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 2%;
+    margin-top: 8%;
 }
 .pro{
     width: 50vh;
@@ -188,9 +203,9 @@ a{
     position: absolute;
     height: 120%;
     font-size: 200%;
-    color:#f8d16c ;
+    color:#f8d06c81 ;
     z-index: -10;
-    
+    font-family:'Bebas Neue', cursive ;
 }
 .pro_head{
     text-align: right;
@@ -206,7 +221,7 @@ a{
     margin-top: 8%;
     font-size: 14px;
     color: #999999;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: italic;
  
 }
@@ -217,8 +232,9 @@ a{
     border: 2px solid black;
     width: fit-content;
     /* margin-left: 47%; */
-    padding: 10.5px 21px;
-    font-family: "Noto Sans KR"; 
+    padding: 10px 21px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5vh;
 }
 .mid_button:hover, .btn:hover{
     background-color: #f8d16c;
@@ -233,15 +249,15 @@ a{
 .mid_2{
     width: 100%;
     height: 100%;
-    background-color: rgb(223, 222, 222);
+    background-color: rgb(236, 234, 234);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .blogimg{
-    width:70%;
+    width:50%;
     align-self: center;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 /* /* .mid2_image{
     width: 50%;
@@ -250,16 +266,17 @@ a{
     /* width: 40%;*/
     /* margin-top: 5%; */
     font-size: 1.1em;
+    line-height: 23px;
     text-align: center;  
     color: #000000DE;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'Lato', sans-serif; 
 }
 .sections {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 .column {
       flex-basis: 50%;
@@ -271,6 +288,14 @@ a{
         max-width: 90%;
         margin-top: 5%;
     }
+    .middle{
+        width:100% ;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .pro{
+        width:40vw;
+    }
 }
 /* .sections{
     display: flex;
@@ -280,31 +305,37 @@ a{
     display: flex;
     flex-wrap: wrap-reverse;
     background-color: #293b52;
+    padding:0 5vw ;
 }
 .contUs, .about{
     width: 40%;
     margin: 4%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     font-size: 14px;
     /* text-indent: 20px; */
     color: rgb(231, 228, 228);
     line-height: 25px;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'Lato', sans-serif;
 }
 @media screen and (max-width: 750px) {
     .contUs, .about{
         flex-basis: 90%;
         max-width: 90%;
         margin-top: 5%;
+        margin-left: 10%;
+    }
+    .footer{
+        text-indent: 100vw;
     }
 }
 h2{
     color: white;
     margin-bottom: 5%;
-    font-family: "Noto Sans KR"; 
+    font-family: 'Bebas Neue', cursive; 
     font-size: 21px;
 }
 .cont_details{
+    margin-top: 15px;
     color: #f8d16c;
 }
 .cont_details i{
@@ -327,9 +358,10 @@ h2{
     line-height: 20px;
     font-family: Arial, Helvetica, sans-serif; 
 } */
-footer{
+.footer{
     background-color: #1c2838;
     color: white;
     height: 20px;
     padding: 10px;
+    text-indent: 7.5vw;
 }
