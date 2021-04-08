@@ -11,7 +11,7 @@ a{
     margin:0%
 }
 .nav-head{
-    background-color: rgb(252, 251, 249)  ;
+    background-color: rgb(252, 251, 249) ;
     box-shadow: rgb(255, 254, 254);
     width: 100vw;
     height: 75px;
@@ -20,6 +20,9 @@ a{
     justify-content: space-between;
     
 }
+/* .nav-head::-webkit-scrollbar{
+    background-color: rgb(252, 251, 249) ;
+} */
 .icon{
     background-image: url(imglogo.png);
     background-repeat: no-repeat;
@@ -43,7 +46,9 @@ a{
 .options{
     margin: 10%;
 }
-
+.burger{
+    display: none;
+}
 .top{
     margin: 0%;
     width: 100%;
@@ -105,6 +110,27 @@ a{
     background-color: #f8d16c ;
     /* align-items: center;
     justify-content: center; */
+}
+@media screen and (max-width: 750px) {
+    .right-fr , .options{
+        display: none;
+    }
+    .left-fr{
+        width: 100%;
+    }
+    .nav_buttons{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .burger{
+        width:40px;
+        height: 5px;
+        background-color: black;
+        display: flex;
+        margin: 4%;
+    }
+    
 }
 .extra{
     /* align-self: center; */
@@ -201,11 +227,9 @@ a{
 .btn{
     margin-top: 0%;
 }
-.mid2-head{
-    /* margin-left: 40vw; */
-    font-family: 'Playfair Display', serif;
-    
-}
+/* .mid2-head::after{
+    color: rgb(90, 89, 89);
+} */
 .mid_2{
     width: 100%;
     height: 100%;
@@ -254,23 +278,47 @@ a{
 } */ 
 .abt_info{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     background-color: #293b52;
 }
 .contUs, .about{
     width: 40%;
-    margin: 5%;
+    margin: 4%;
+    margin-bottom: 1%;
     font-size: 14px;
     /* text-indent: 20px; */
     color: rgb(231, 228, 228);
-    line-height: 20px;
+    line-height: 25px;
     font-family: Arial, Helvetica, sans-serif; 
+}
+@media screen and (max-width: 750px) {
+    .contUs, .about{
+        flex-basis: 90%;
+        max-width: 90%;
+        margin-top: 5%;
+    }
 }
 h2{
     color: white;
     margin-bottom: 5%;
     font-family: "Noto Sans KR"; 
     font-size: 21px;
+}
+.cont_details{
+    color: #f8d16c;
+}
+.cont_details i{
+    color: rgb(231, 228, 228);
+    margin-right: 2%;
+}
+.soc_media i{
+    color: white;
+    font-size: 20px;
+    width: 45px;
+    margin-top: 5%;
+}
+.soc_media i:hover{
+    color: #f8d16c;
 }
 /* .about{
     width: 40%;
@@ -282,5 +330,6 @@ h2{
 footer{
     background-color: #1c2838;
     color: white;
-    height: 40px;
+    height: 20px;
+    padding: 10px;
 }
