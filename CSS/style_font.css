@@ -150,9 +150,6 @@ a, a:link , a:visited , a:hover ,a:active{
     .para{
         font-size: 1em;
     }
-    .mid2_info{
-        font-size: 0.8em;
-    }
     .headmid, .mid2-head{
         font-size: 1em;
     }
@@ -313,10 +310,13 @@ a, a:link , a:visited , a:hover ,a:active{
         width:100% ;
     }
     .btn{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     .image{
         width: 70%;
+    }
+    .mid2_info{
+        font-size: 1em;
     }
     
 }
