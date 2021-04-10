@@ -190,12 +190,15 @@ a, a:link , a:visited , a:hover ,a:active{
     margin-bottom: 0%;
 }
 .image{
-    background-image: url(project.png);
-    background-size: cover;
-    width: 51.5vh;
-    height: 30vh;
+    /* background-image: url(project.png); */
+    /* background-size: cover; */
+    width: 30%;
+    /* height: 29.3vh; */
     margin-top: 10px;
-    /* margin-left: 37vw; */
+    /* margin-left: 37vw;  */
+} 
+.proimg{
+    width:100%;
 }
 .projects{
     display: flex;
@@ -311,6 +314,9 @@ a, a:link , a:visited , a:hover ,a:active{
     }
     .btn{
         font-size: 3vw;
+    }
+    .image{
+        width: 70%;
     }
     
 }
